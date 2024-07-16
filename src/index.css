@@ -1,0 +1,76 @@
+.title {
+    color: #159b7e;
+  }
+  
+  .form-control {
+    border: none;
+    margin: 5px;
+  }
+  .form-control::placeholder{
+    color: #159b7e;
+    font-size: large;
+  }
+  
+  .btnadd {
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    background-color: #00ad8b;
+    border-radius: 0.5rem;
+    color: white;
+  }
+  
+  #list1 .form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+  }
+  
+  #list1 .select-filter {
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border: 0.5px solid #00ad8b;
+    background-color: #ff8380;
+    border-radius: 0.1rem;
+    color: white;
+    font-size: small;
+  }
+
+  .list-box {
+    border: none;
+    box-shadow: 1px 1px 5px 5px #0eeba1;
+    display: inline-block;
+    width: 350px ;
+    padding: 20px 50px 50px 20px;
+    margin: 20px;
+    background-color: #c8f5d5;
+    height: 240px;
+    margin-top: 50px;
+  }
+  .list-box:hover {
+    box-shadow: 1px 1px 5px 5px #0eeb;
+  }
+  
+  .edit-delete {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 70px;
+  }
+  
+  .edit {
+    background-color: #00ad90;
+    width: 60px;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .delete {
+    background-color: #d56027;
+    width: 60px;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+  }

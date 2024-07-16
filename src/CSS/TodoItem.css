@@ -1,0 +1,42 @@
+.Btn-box{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.Btn-status{
+    width: 100px;
+    border-radius: 0.5rem;
+    margin-right: 7px;
+    border: none;
+    background-color: rgb(231, 198, 155);
+}
+.edit-input{
+    width: 100px;
+    height: 30px;
+    border-radius: 0.5rem;
+    background-color:00ad90;
+    width: 200px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.edit-add-btn{
+    width: 100px;
+    border-radius: 0.5rem;
+    background-color: #00ad8b;
+    border: none;
+    margin-top: 5px;
+}
+
+.edit-bar{
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+
+}
+
+.todo-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
