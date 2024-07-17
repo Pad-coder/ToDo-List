@@ -1,7 +1,11 @@
 .title {
-    color: #159b7e;
+    color: #1f2423;
   }
   
+  .form-control:hover{
+    box-shadow: 1px 1px 5px 5px #0eeba1;
+  }
+
   .form-control {
     border: none;
     margin: 5px;
